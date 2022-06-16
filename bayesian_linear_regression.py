@@ -14,7 +14,7 @@ def GradientDescent(w,x):
 
 
 def LinearRegression(intercept = True):
-    X,Y = np.random.randint(low= 100,high = 1000,size = (2000,3)),np.random.randint(low = 10,high = 100,size = (2000,1))
+    X,Y = np.random.randint(low= 5,high = 10,size = (20,3)),np.random.randint(low = 10,high = 100,size = (20,1))
     return None
 
 
