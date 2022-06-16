@@ -17,3 +17,6 @@ def LinearRegression(intercept = True):
     X,Y = np.random.randint(low= 100,high = 1000,size = (2000,3)),np.random.randint(low = 10,high = 100,size = (2000,1))
     return None
 
+
+def calc_loss_function(actual,pred):
+    return ((actual-pred)**2)
