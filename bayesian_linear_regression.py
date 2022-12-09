@@ -6,7 +6,8 @@ This file contains codes to implement linear regression with bayesian priors on 
 import pandas as pd
 import numpy as np
 import os
-print(os.getcwd())
+import warnings
+warnings.filterwarnings("ignore")
 
 
 def GradientDescent(w,x):
@@ -20,3 +21,5 @@ def LinearRegression(intercept = True):
 
 def calc_loss_function(actual,pred):
     return ((actual-pred)**2)
+
+
